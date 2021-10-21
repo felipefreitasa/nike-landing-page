@@ -1,0 +1,52 @@
+.content {
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+
+   color: #fff;
+
+   text-shadow: 1px 1px 1px #270356;
+
+   @media (min-width: 0px) {
+      width: 100%;
+   }
+
+   @media (min-width: 900px) {
+      width: 30%;
+   }
+
+   > h2 {
+      font-weight: 300;
+      font-size: 30px;
+   }
+
+   > h1 {
+      font-weight: 600;
+      font-size: 50px;
+
+      margin: 10px 0;
+   }
+
+   > h3 {
+      font-size: 30px;
+      font-weight: 300;
+   }
+
+   > strong {
+      font-weight: 500;
+      font-size: 20px;
+
+      margin-bottom: 10px;
+   }
+
+   > p {
+      font-weight: 200;
+      font-size: 14px;
+
+      
+      text-align: justify;
+      line-height: 20px;
+   
+   }
+
+}

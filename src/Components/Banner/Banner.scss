@@ -1,0 +1,43 @@
+.banner {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+
+   overflow: hidden;
+
+   position: relative;
+
+   @media (min-width: 0px) {
+      flex-direction: column-reverse;
+      justify-content: center;
+
+      height: calc(100vh - 120px);
+      width: 100%;
+
+      padding: 0 30px;
+   }
+
+   @media (min-width: 700px) {
+      width: calc(100% - 70px);   
+
+      padding: 0 50px;
+   }
+
+   @media (min-width: 900px) {
+      flex-direction: row;
+      justify-content: space-around;
+
+      height: calc(100vh - 120px);
+      width: calc(100% - 70px);   
+   }
+
+   > p {
+      position: absolute;
+
+      font-size: 200px;
+      font-weight: 800;
+      color: #Fff;
+
+      opacity: 0.04;
+   }
+}
