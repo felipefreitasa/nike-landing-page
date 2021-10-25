@@ -8,6 +8,5 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - ReactJS
 - SASS
-- Axios
 - Google Fonts 
 - Iconify
